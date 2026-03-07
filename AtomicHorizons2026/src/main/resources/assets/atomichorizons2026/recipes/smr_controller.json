@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HCH",
+    "CRC",
+    "HCH"
+  ],
+  "key": {
+    "H": {
+      "item": "atomichorizons2026:smr_housing"
+    },
+    "C": {
+      "item": "atomichorizons2026:block_steel"
+    },
+    "R": {
+      "item": "atomichorizons2026:smr_core"
+    }
+  },
+  "result": {
+    "item": "atomichorizons2026:smr_controller",
+    "count": 1
+  }
+}

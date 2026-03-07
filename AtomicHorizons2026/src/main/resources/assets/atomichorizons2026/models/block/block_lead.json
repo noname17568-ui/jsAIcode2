@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atomichorizons2026:blocks/block_lead"
+  }
+}

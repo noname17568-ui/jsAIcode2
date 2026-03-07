@@ -1,0 +1,16 @@
+[
+{
+  "modid": "atomichorizons2026",
+  "name": "Atomic Horizons: 2026",
+  "description": "Next-generation nuclear technology mod featuring SMR reactors, Gen IV designs, and AI-powered control systems. Based on real 2025-2026 nuclear trends.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/atomichorizons2026",
+  "updateUrl": "",
+  "authorList": ["AtomicHorizons Team"],
+  "credits": "Inspired by real SMR technology: NuScale, RITM-200, and Gen IV reactors",
+  "logoFile": "assets/atomichorizons2026/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
