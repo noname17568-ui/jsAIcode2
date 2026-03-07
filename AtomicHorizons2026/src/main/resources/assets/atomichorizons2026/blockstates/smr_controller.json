@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "atomichorizons2026:smr_controller" },
+    "active=true": { "model": "atomichorizons2026:smr_controller_active" }
+  }
+}
