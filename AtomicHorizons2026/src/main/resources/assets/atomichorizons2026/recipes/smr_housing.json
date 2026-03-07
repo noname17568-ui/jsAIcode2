@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "S S",
+    "LSL"
+  ],
+  "key": {
+    "L": {
+      "item": "atomichorizons2026:block_lead"
+    },
+    "S": {
+      "item": "atomichorizons2026:block_steel"
+    }
+  },
+  "result": {
+    "item": "atomichorizons2026:smr_housing",
+    "count": 4
+  }
+}
