@@ -1,6 +1,7 @@
 package com.atomichorizons2026;
 
 import com.atomichorizons2026.handlers.RegistryHandler;
+import com.atomichorizons2026.handlers.SoundHandler;
 import com.atomichorizons2026.proxy.CommonProxy;
 import com.atomichorizons2026.worldgen.OreWorldGen;
 import net.minecraftforge.fml.common.Mod;
@@ -39,6 +40,10 @@ public class AtomicHorizons2026 {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         LOGGER.info("Initializing Atomic Horizons: 2026 - Next Generation Nuclear Technology");
+        LOGGER.info("Sprint 2: Fluids, Tools, and Radiation Protection Armor");
+        
+        // Initialize sounds
+        SoundHandler.preInit();
         
         // Register blocks and items
         RegistryHandler.preInitRegistries();
@@ -62,6 +67,17 @@ public class AtomicHorizons2026 {
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
         LOGGER.info("Atomic Horizons: 2026 successfully loaded!");
+        LOGGER.info("Features loaded:");
+        LOGGER.info("  - 10 new ores with realistic distribution");
+        LOGGER.info("  - Radiation system with chunk-based contamination");
+        LOGGER.info("  - 10 industrial fluids (acids, coolants, nuclear materials)");
+        LOGGER.info("  - Geiger Counter and Dosimeter tools");
+        LOGGER.info("  - RadAway anti-radiation medicine");
+        LOGGER.info("  - 3 tiers of radiation protection armor");
+        LOGGER.info("     * Hazmat Suit (50% protection)");
+        LOGGER.info("     * Lead-Lined Armor (90% protection, slowness)");
+        LOGGER.info("     * HEV Suit (85% protection, RF-powered)");
+        
         proxy.postInit(event);
     }
 }
