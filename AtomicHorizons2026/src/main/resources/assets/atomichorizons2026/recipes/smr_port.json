@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HGH",
+    "P P",
+    "HGH"
+  ],
+  "key": {
+    "H": {
+      "item": "atomichorizons2026:smr_housing"
+    },
+    "G": {
+      "item": "atomichorizons2026:block_graphite"
+    },
+    "P": {
+      "item": "atomichorizons2026:ingot_zirconium"
+    }
+  },
+  "result": {
+    "item": "atomichorizons2026:smr_port",
+    "count": 2
+  }
+}

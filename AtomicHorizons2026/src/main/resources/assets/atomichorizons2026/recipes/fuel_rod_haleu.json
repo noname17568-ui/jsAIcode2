@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZTZ",
+    " T "
+  ],
+  "key": {
+    "Z": {
+      "item": "atomichorizons2026:ingot_zirconium"
+    },
+    "T": {
+      "item": "atomichorizons2026:triso_particles"
+    }
+  },
+  "result": {
+    "item": "atomichorizons2026:fuel_rod_haleu",
+    "count": 1
+  }
+}

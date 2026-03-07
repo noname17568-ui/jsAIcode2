@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "HGH",
+    "CHC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:coal",
+      "data": 1
+    },
+    "H": {
+      "item": "atomichorizons2026:haleu"
+    },
+    "G": {
+      "item": "atomichorizons2026:ingot_graphite"
+    }
+  },
+  "result": {
+    "item": "atomichorizons2026:triso_particles",
+    "count": 4
+  }
+}
