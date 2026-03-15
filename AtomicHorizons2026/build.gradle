@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url = "https://maven.minecraftforge.net" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "1.0.0-beta"
+group = "com.atomichorizons2026"
+archivesBaseName = "AtomicHorizons2026"
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "1.12.2-14.23.5.2847"
+    runDir = "run"
+    mappings = "stable_39"
+    makeObfSourceJar = false
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.minecraftforge.net" }
+    maven { url = "https://maven.blamejared.com" }
+    maven { url = "https://maven.tehnut.info" }
+    maven { url = "https://modmaven.k-4u.nl" }
+}
+
+dependencies {
+    // JEI integration
+    deobfProvided "mezz.jei:jei_1.12.2:4.16.1.301:api"
+    runtime "mezz.jei:jei_1.12.2:4.16.1.301"
+    
+    // Mekanism integration (optional)
+    // deobfProvided "mekanism:Mekanism:1.12.2:9.8.3.390"
+    
+    // Thermal Expansion integration (optional)
+    // deobfProvided "cofh:ThermalExpansion:1.12.2:5.5.7.1:universal"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
