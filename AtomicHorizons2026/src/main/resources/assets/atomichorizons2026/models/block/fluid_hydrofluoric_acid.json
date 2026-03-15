@@ -1,0 +1,8 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:block/fluid",
+  "textures": {
+    "still": "atomichorizons2026:blocks/fluid_hydrofluoric_acid_still",
+    "flowing": "atomichorizons2026:blocks/fluid_hydrofluoric_acid_flowing"
+  }
+}

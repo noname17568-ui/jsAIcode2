@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "atomichorizons2026:items/ingot_lead"
+  }
+}
