@@ -1,0 +1,318 @@
+# Creative Tab
+itemGroup.atomichorizons2026=Atomic Horizons: 2026
+
+# ==================== BLOCKS ====================
+# Ores
+tile.ore_uranium.name=Урановая руда
+tile.ore_thorium.name=Ториевая руда
+tile.ore_zirconium.name=Циркониевая руда
+tile.ore_fluorite.name=Флюоритовая руда
+tile.ore_sulfur.name=Серная руда
+tile.ore_lead.name=Свинцовая руда
+tile.ore_beryllium.name=Бериллиевая руда
+tile.ore_boron.name=Борная руда
+tile.ore_graphite.name=Графитовая руда
+tile.ore_radium.name=Радиевая руда
+tile.ore_monazite.name=Моназитовый песок
+
+# Storage Blocks
+tile.block_graphite.name=Графитовый блок
+tile.block_lead.name=Свинцовый блок
+tile.block_steel.name=Стальной блок
+tile.block_concrete.name=Бетонный блок
+tile.block_reinforced_concrete.name=Армированный бетонный блок
+tile.block_radium.name=Радиевый блок
+
+# Machines
+tile.crusher.name=Дробилка
+tile.enrichment_chamber.name=Камера обогащения
+tile.industrial_smelter.name=Промышленная плавильня
+
+# SMR Blocks
+tile.smr_core.name=Ядро SMR реактора
+tile.smr_casing.name=Корпус SMR
+tile.smr_controller.name=Контроллер SMR
+tile.smr_housing.name=Кожух SMR
+tile.smr_port.name=Порт SMR
+tile.smr_glass.name=Бронированное стекло SMR
+tile.corium.name=Корий
+
+# ==================== FLUIDS ====================
+fluid.sulfuric_acid=Серная кислота (H2SO4)
+fluid.hydrofluoric_acid=Плавиковая кислота (HF)
+fluid.nitric_acid=Азотная кислота (HNO3)
+fluid.liquid_sodium=Жидкий натрий
+fluid.liquid_lead_bismuth=Жидкий свинцово-висмутовый сплав
+fluid.molten_salt=Расплавленная соль
+fluid.uranium_hexafluoride=Гексафторид урана (UF6)
+fluid.molten_uranium=Жидкий уран
+fluid.molten_thorium=Жидкий торий
+fluid.nuclear_waste=Жидкие ядерные отходы
+
+tile.sulfuric_acid.name=Серная кислота
+tile.hydrofluoric_acid.name=Плавиковая кислота
+tile.nitric_acid.name=Азотная кислота
+tile.liquid_sodium.name=Жидкий натрий
+tile.liquid_lead_bismuth.name=Жидкий свинцово-висмут
+tile.molten_salt.name=Расплавленная соль
+tile.uranium_hexafluoride.name=Гексафторид урана
+tile.molten_uranium.name=Жидкий уран
+tile.molten_thorium.name=Жидкий торий
+tile.nuclear_waste.name=Жидкие ядерные отходы
+
+# ==================== ITEMS ====================
+# Raw Materials
+item.raw_uranium.name=Неочищенный уран
+item.raw_thorium.name=Неочищенный торий
+item.raw_zirconium.name=Неочищенный цирконий
+item.raw_fluorite.name=Неочищенный флюорит
+item.raw_sulfur.name=Неочищенная сера
+item.raw_lead.name=Неочищенный свинец
+item.raw_beryllium.name=Неочищенный бериллий
+item.raw_boron.name=Неочищенный бор
+item.raw_graphite.name=Неочищенный графит
+item.raw_radium.name=Неочищенный радий
+
+# Enriched Materials
+item.enriched_uranium.name=Обогащённый уран
+item.enriched_thorium.name=Обогащённый торий
+item.enriched_zirconium.name=Обогащённый цирконий
+item.enriched_lead.name=Обогащённый свинец
+item.enriched_beryllium.name=Обогащённый бериллий
+item.enriched_boron.name=Обогащённый бор
+
+# Ingots
+item.ingot_uranium.name=Урановый слиток
+item.ingot_thorium.name=Ториевый слиток
+item.ingot_zirconium.name=Циркониевый слиток
+item.ingot_lead.name=Свинцовый слиток
+item.ingot_steel.name=Стальной слиток
+item.ingot_beryllium.name=Бериллиевый слиток
+item.ingot_boron.name=Борный слиток
+item.ingot_graphite.name=Графитовый слиток
+item.ingot_radium.name=Радиевый слиток
+
+# Nuclear Materials
+item.haleu.name=HALEU (высокообогащенный низкообогащенный уран)
+item.triso_particles.name=TRISO топливные частицы
+item.fuel_rod_haleu.name=HALEU топливный стержень (Legacy)
+item.fuel_rod.name=Топливный стержень
+item.spent_fuel_rod.name=Отработанный топливный стержень
+item.yellowcake.name=Йеллоу-кейк
+item.uranium_hexafluoride.name=Контейнер с UF6
+
+# Consumables
+item.hazmat_spray.name=Дезактивационный спрей
+item.potassium_iodide.name=Таблетки йодистого калия
+item.radaway.name=Антирадин (Legacy)
+item.radx.name=Рад-X
+
+# ==================== SPRINT 2: TOOLS ====================
+item.geiger_counter.name=Счетчик Гейгера
+item.dosimeter.name=Дозиметр
+item.radaway_tablet.name=Таблетка Антирадина
+item.radaway_injector.name=Автоинжектор Антирадина
+item.radaway_advanced.name=Улучшенный Антирадин
+
+# ==================== SPRINT 2: ARMOR ====================
+# Hazmat Suit
+item.hazmat_helmet.name=Химзащитный капюшон
+item.hazmat_chestplate.name=Химзащитный костюм
+item.hazmat_leggings.name=Химзащитные штаны
+item.hazmat_boots.name=Химзащитные ботинки
+
+# Lead-Lined Armor
+item.lead_lined_helmet.name=Свинцовый капюшон
+item.lead_lined_chestplate.name=Свинцовый жилет
+item.lead_lined_leggings.name=Свинцовые штаны
+item.lead_lined_boots.name=Свинцовые ботинки
+
+# HEV Suit
+item.hev_helmet.name=Шлем HEV Mark V
+item.hev_chestplate.name=Костюм HEV Mark V
+item.hev_leggings.name=Поножи HEV Mark V
+item.hev_boots.name=Ботинки HEV Mark V
+
+# ==================== TOOLTIPS & MESSAGES ====================
+# Geiger Counter
+geiger.chunk_radiation=Радиация чанка
+geiger.status=Статус
+geiger.tooltip.last_reading=Последнее измерение
+geiger.tooltip.auto_check=Автопроверка каждую секунду
+geiger.tooltip.right_click_info=ПКМ для подробной информации
+geiger.status.safe=БЕЗОПАСНО
+geiger.status.elevated=ПОВЫШЕННЫЙ
+geiger.status.dangerous=ОПАСНО
+geiger.status.critical=КРИТИЧЕСКИЙ
+geiger.status.lethal=СМЕРТЕЛЬНЫЙ
+
+# Dosimeter
+dosimeter.total_dose=Общая доза
+dosimeter.resistance=Сопротивление радиации
+dosimeter.status=Состояние здоровья
+dosimeter.error.no_data=Ошибка: Невозможно прочитать данные
+dosimeter.tooltip.last_reading=Последнее измерение
+dosimeter.tooltip.right_click=ПКМ для проверки дозы
+dosimeter.tooltip.measures_total=Измеряет накопленную дозу
+
+# Dosimeter Status
+dosimeter.status.healthy=Здоров
+dosimeter.status.mild_exposure=Легкое облучение
+dosimeter.status.moderate_exposure=Умеренное облучение
+dosimeter.status.severe_exposure=Тяжелое облучение
+dosimeter.status.critical=КРИТИЧЕСКОЕ
+dosimeter.status.lethal=СМЕРТЕЛЬНОЕ
+
+# Dosimeter Advice
+dosimeter.advice.none=Действия не требуются
+dosimeter.advice.monitor=Следите за ситуацией
+dosimeter.advice.radaway=Рекомендуется принять Антирадин
+dosimeter.advice.urgent=Требуется медицинская помощь
+dosimeter.advice.emergency=МЕДИЦИНСКАЯ АВАРИЯ!
+
+# RadAway
+radaway.reduces_radiation=Снижает радиацию на %d RAD
+radaway.side_effect.warning=Побочные эффекты:
+radaway.tooltip.use_when_irradiated=Используйте при облучении
+radaway.no_radiation=Радиация не обнаружена
+radaway.reduced=Радиация снижена на %.1f RAD
+radaway.remaining=Оставшаяся доза: %.1f RAD
+radaway.fully_cleared=Радиация полностью очищена!
+radaway.side_effects=Наложены побочные эффекты...
+
+# Armor
+armor.radiation_protection=Защита от радиации
+armor.durability=Прочность
+
+# Hazmat
+armor.hazmat.desc=Костюм химической защиты
+armor.hazmat.full_set=Бонус полного комплекта
+armor.hazmat.low_durability=ВНИМАНИЕ: Низкая прочность!
+
+# Lead-Lined
+armor.lead_lined.desc=Тяжелая свинцовая броня
+armor.lead_lined.slowdown=Вызывает замедление
+armor.lead_lined.full_set=Бонус полного комплекта
+armor.lead_lined.full_slowdown=Сильное замедление
+
+# HEV
+armor.hev.desc=Костюм защиты от опасных сред
+armor.hev.full_set=Бонус полного комплекта
+hev.energy=Энергия
+hev.status.active=ЗАЩИТА АКТИВНА
+hev.status.inactive=НЕТ ЭНЕРГИИ
+hev.warning.low_energy=ВНИМАНИЕ: Низкий заряд!
+hev.energy_consumption=Потребление: %d RF/тик
+
+# ==================== SUBTITLES ====================
+subtitles.atomichorizons2026.geiger_click=Счетчик Гейгера трещит
+subtitles.atomichorizons2026.dosimeter_beep=Дозиметр пищит
+subtitles.atomichorizons2026.alarm_radiation=Радиационная тревога
+subtitles.atomichorizons2026.alarm_meltdown=Тревога расплава
+subtitles.atomichorizons2026.reactor_hum=Реактор гудит
+subtitles.atomichorizons2026.reactor_scram=Аварийная защита реактора
+subtitles.atomichorizons2026.reactor_startup=Реактор запускается
+subtitles.atomichorizons2026.hev_power=Костюм HEV включается/выключается
+subtitles.atomichorizons2026.hev_damage=Костюм HEV получает повреждения
+subtitles.atomichorizons2026.hev_low_energy=Костюм HEV разряжен
+
+# ==================== DEATH MESSAGES ====================
+death.attack.radiation=%1$s умер от острой лучевой болезни
+death.attack.radiation.player=%1$s умер от радиации, сражаясь с %2$s
+death.attack.acid_burn=%1$s растворился в кислоте
+death.attack.acid_burn.player=%1$s упал в кислоту, убегая от %2$s
+
+# ==================== POTION EFFECTS ====================
+effect.radiation_sickness=Лучевая болезнь
+
+# ==================== SIMPLE ITEMS ====================
+item.radx.name=Рад-X таблетка
+item.tungsten_reacher.name=Вольфрамовые щипцы
+item.lead_lined_toolbelt.name=Свинцовый пояс
+item.radiation_shielding_upgrade.name=Радиационная защита (апгрейд)
+item.radium_ingot.name=Радиевый слиток
+item.portable_decontamination_unit.name=Портативный дезактиватор
+
+# ==================== RADIOACTIVE ISOTOPES ====================
+item.radium_226.name=Радий-226
+item.polonium_210.name=Полоний-210
+item.americium_241.name=Америций-241
+item.cobalt_60.name=Кобальт-60
+item.cesium_137.name=Цезий-137
+item.iodine_131.name=Йод-131
+item.plutonium_239.name=Плутоний-239
+item.uranium_235.name=Уран-235
+item.thorium_232.name=Торий-232
+
+# ==================== RTG ====================
+item.rtg_plutonium_238.name=РИТЭГ (Плутоний-238)
+item.rtg_strontium_90.name=РИТЭГ (Стронций-90)
+item.rtg_americium_241.name=РИТЭГ (Америций-241)
+item.rtg_polonium_210.name=РИТЭГ (Полоний-210)
+
+# NBC Suit
+item.nbc_helmet.name=Костюм РХБЗ (шлем)
+item.nbc_chestplate.name=Костюм РХБЗ (куртка)
+item.nbc_leggings.name=Костюм РХБЗ (штаны)
+item.nbc_boots.name=Костюм РХБЗ (ботинки)
+
+# Atomic Exo-Suit
+item.atomic_exo_helmet.name=Атомный экзоскелет (шлем)
+item.atomic_exo_chestplate.name=Атомный экзоскелет (корпус)
+item.atomic_exo_leggings.name=Атомный экзоскелет (поножи)
+item.atomic_exo_boots.name=Атомный экзоскелет (ботинки)
+
+# ==================== MISSING TOOLTIP KEYS ====================
+# Tungsten Reacher
+tungsten_reacher.reduction=Снижение радиации: %s
+tungsten_reacher.desc=Снижает радиацию от предметов в инвентаре
+tungsten_reacher.worn=ВНИМАНИЕ: Инструмент изношен!
+
+# Lead-Lined Toolbelt
+toolbelt.radiation_reduction=Снижение радиации: %d%%
+toolbelt.desc=Защищает от радиации в инвентаре
+toolbelt.worn=ВНИМАНИЕ: Пояс изношен!
+
+# Radiation Shielding Upgrade
+shield_upgrade.protection=+%d%% защиты от радиации за уровень
+shield_upgrade.max_levels=Максимум %d уровней
+shield_upgrade.how_to_use=Применить к броне в верстаке
+
+# Radioactive Isotopes
+isotope.radiation_type=Тип излучения
+isotope.radiation_per_tick=Радиация: %s RAD/тик
+isotope.half_life=Период полураспада: %d лет
+isotope.warning=ОПАСНО: Высокорадиоактивно!
+
+# Rad-X
+radx.protection=+%d%% сопротивления радиации
+radx.duration=Длительность: %d секунд
+radx.note=Не снимает накопленную радиацию
+radx.activated=Рад-X активирован! Длительность: %d секунд
+
+# RTG
+rtg.energy_per_tick=Выработка энергии: %s RF/тик
+rtg.lifespan=Срок службы: %s лет
+rtg.desc=Преобразует радиоактивный распад в энергию
+
+# NBC Suit
+armor.nbc.desc=Ядерная, биологическая, химическая защита
+armor.nbc.dosimeter=Встроенный дозиметр
+armor.nbc.full_set=Бонус полного комплекта
+
+# Exo-Suit
+armor.exosuit.desc=Продвинутый силовой экзоскелет
+armor.exosuit.features=Особые возможности:
+armor.exosuit.flight=Креативный полёт
+armor.exosuit.strength=Усиленная сила
+armor.exosuit.infinite_energy=Бесконечная энергия
+armor.exosuit.night_vision=Ночное видение
+armor.exosuit.speed=Ускорение
+armor.exosuit.full_set=Защита полного комплекта
+
+# Portable Decontamination Unit
+portable_decon.used=Дезактивация завершена! Удалено %s RAD
+portable_decon.no_radiation=Радиация не обнаружена
+portable_decon.reduction=Удаляет %s RAD
+portable_decon.desc=Одноразовое устройство дезактивации
+portable_decon.single_use=Расходуется при использовании
